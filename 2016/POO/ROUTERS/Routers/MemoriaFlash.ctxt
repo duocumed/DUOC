@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MemoriaFlash()
+comment1.params=tipo\ cantidad
+comment1.target=MemoriaFlash(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getTipo()
+comment3.params=
+comment3.target=int\ getCantidad()
+comment4.params=tipo
+comment4.target=void\ setTipo(java.lang.String)
+comment5.params=cantidad
+comment5.target=void\ setCantidad(int)
+comment6.params=
+comment6.target=void\ printMemoriaFlash()
+numComments=7

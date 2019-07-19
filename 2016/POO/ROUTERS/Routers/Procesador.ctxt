@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Procesador()
+comment1.params=tipo\ velocidad
+comment1.target=Procesador(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getTipo()
+comment3.params=tipo
+comment3.target=void\ setTipo(java.lang.String)
+comment4.params=
+comment4.target=int\ getVelocidad()
+comment5.params=velocidad
+comment5.target=void\ setVelocidad(int)
+comment6.params=
+comment6.target=void\ printProcesador()
+numComments=7

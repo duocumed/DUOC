@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Dispositivo()
+comment1.params=codigoDispositivo\ fabricante\ tipoProcesador\ velocidadReloj\ tipoMemoriaFlash\ cantidadMemoriaFlash\ tipoMemoriaRAM\ cantidadMemoriaRAM\ ampliableRAM
+comment1.target=Dispositivo(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ int,\ java.lang.String,\ int,\ boolean)
+comment2.params=
+comment2.target=java.lang.String\ getCodigoDispositivo()
+comment3.params=
+comment3.target=java.lang.String\ getFabricante()
+comment4.params=codigoDispositivo
+comment4.target=void\ setCodigoDispositivo(java.lang.String)
+comment5.params=fabricante
+comment5.target=void\ setFabricante(java.lang.String)
+comment6.params=
+comment6.target=void\ printDispositivo()
+comment7.params=distroVersion
+comment7.target=boolean\ cumpleMinimo(DistroVersion)
+comment8.params=distroVersion
+comment8.target=void\ imprimirReporte(DistroVersion)
+numComments=9
