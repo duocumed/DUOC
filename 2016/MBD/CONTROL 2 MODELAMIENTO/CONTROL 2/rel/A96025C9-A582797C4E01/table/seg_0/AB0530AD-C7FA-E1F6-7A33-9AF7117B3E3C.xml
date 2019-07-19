@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB0530AD-C7FA-E1F6-7A33-9AF7117B3E3C" name="CONSULTA">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>891ED753-427E-C8D7-C962-0348C5FC59B9</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_consulta" id="C05BE010-02DA-444B-5571-61B76CB6C864">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>56C80BEA-1294-8F49-5266-D03BFCB199AA</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_consulta" id="2D1467A1-D693-22F3-C59B-9302B93AC102">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>9B69DB65-2BCB-A8A6-EEF8-06CE4900B3D8</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FICHA_num_ficha" id="0BD18018-8511-093C-5ABD-B8AE28625DD0">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>41073697-DE17-B2BB-0384-24ABF853BF51</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8EE304B-76CD-3CA7-8A1A-8B9932AA30B4" referredColumn="9511668E-7FA7-0B76-C61C-6875EFD786B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB267C42-4280-6DAE-B8D3-08F70D318C97" name="CONSULTA_PK">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>50AB09F3-B231-6589-6BFF-11F4EF9D3504</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C05BE010-02DA-444B-5571-61B76CB6C864"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23239BE1-D7FD-5BD0-8905-E114AE4CBD72" name="CONSULTA_FICHA_FK">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>B628445D-DDFB-9A9F-35CD-46FC822A8571</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BD18018-8511-093C-5ABD-B8AE28625DD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CONTROL 2" id="2608DB57-3092-CE35-27EA-BB90D50989BD" version="3.5">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:58:53 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2608DB57-3092-CE35-27EA-BB90D50989BD</designId>
+</OSDM_Design>

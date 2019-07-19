@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BDEF30C-E304-16CD-A426-6FA182551DB7" name="FICHA">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>EEE73DE7-4838-25DE-8219-14E28875FF75</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_ficha" id="9511668E-7FA7-0B76-C61C-6875EFD786B2">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>FA92328E-F368-AE1E-2458-60C8EB60DBE9</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomb_mascota" id="C609B54B-1C87-A907-4BF0-8D3D7F325CAA">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>C61878F5-4776-E318-CA86-7DA3A9B3F72C</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especie_mascota" id="F4C2D680-FA60-1C98-CE65-830EFD133F07">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>9AA3933E-F40C-2BD8-7A12-39FD72A06489</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="raza_mascota" id="B549EF9E-ACE4-041A-FC01-6369FBABFBC8">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>F96AF68B-1165-3E46-B909-1C94370E6367</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color_mascota" id="809B103E-B53C-72F9-B900-05CAF259E94F">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>74D11214-D02C-191A-1C90-8C7C657ED144</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nac_mascota" id="21C7A8D9-8AD1-861B-1601-AF4BCBCD1170">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>5BBA1737-E54B-4FDE-A78D-1AA054EE517C</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad_mascota" id="F15C707E-7F99-8BFC-0A82-EFB47988ADE3">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>C833DF56-2742-5797-7FA6-755AD2E47E8B</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_primera_consulta_mascota" id="E884A3F4-52BD-41B3-9190-D42AA943E11B">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>43FD23B4-18F5-1F25-E04E-7CEFB51A31E7</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROPIETARIO_ci_propietario" id="8A3AE6AA-14A2-0148-D12C-044F7DC852BF">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>42AC9226-D0C0-6568-FB5D-3601E98D0E9A</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D45BC4D-7B56-B4C6-6FA7-11A031F63046" referredColumn="31EA138A-9D46-32C3-DA5D-C2310FFF7013"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3130DD11-15DD-C384-042A-3E5AC1D32C7B" name="FICHA_PK">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>5F904205-ED25-6B2F-53D7-A377BB9FBCD0</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9511668E-7FA7-0B76-C61C-6875EFD786B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="947757C9-87C3-269C-66DB-32BFFAD4B41C" name="FICHA_PROPIETARIO_FK">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>2CE587D7-05D4-526D-4C3F-2D23FDC67F25</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A3AE6AA-14A2-0148-D12C-044F7DC852BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

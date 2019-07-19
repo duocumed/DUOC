@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="891ED753-427E-C8D7-C962-0348C5FC59B9" name="CONSULTA">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:01:53 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_consulta" id="56C80BEA-1294-8F49-5266-D03BFCB199AA">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:02:06 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_consulta" id="9B69DB65-2BCB-A8A6-EEF8-06CE4900B3D8">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:02:06 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_ficha" id="41073697-DE17-B2BB-0384-24ABF853BF51">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:08:58 UTC</createdTime>
+<generatorID>B628445D-DDFB-9A9F-35CD-46FC822A8571</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<referedAttribute>FA92328E-F368-AE1E-2458-60C8EB60DBE9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50AB09F3-B231-6589-6BFF-11F4EF9D3504" name="CONSULTA PK">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:02:21 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56C80BEA-1294-8F49-5266-D03BFCB199AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

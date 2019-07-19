@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="730E9800-F512-99EF-CA08-41BE5234D818" name="SERVICIO">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:05:32 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_servicio" id="3C9346AC-ED18-C257-2C5E-6C5EB0B02CEF">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:05:40 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion_servicio" id="A8ADE177-7F06-B8B2-6410-D1A7D108571F">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:05:41 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="val_unit_serv" id="6AC12387-1F56-B8D9-1261-4FB2694AD60A">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:06:13 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_tipo_servicio" id="081C506C-0539-4218-CAD6-550B80464F4A">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:14:25 UTC</createdTime>
+<generatorID>D7624A51-82B7-4E42-AF61-A8C58F563470</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<referedAttribute>680E2176-EBFF-C805-0BF7-AFFD9F048D56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="61EF58C3-8C36-F83A-A154-D8E1A03416B7" name="SERVICIO PK">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:06:02 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C9346AC-ED18-C257-2C5E-6C5EB0B02CEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

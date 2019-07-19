@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8571AEDE-BF02-F772-705F-FA0C91BD909B" mainViewID="9F016CBE-071C-0A0A-A01F-CE54834D8F46">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:58:53 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C711EFD8-39AB-3B1E-3358-DDDA56B26FEA">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:58:54 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

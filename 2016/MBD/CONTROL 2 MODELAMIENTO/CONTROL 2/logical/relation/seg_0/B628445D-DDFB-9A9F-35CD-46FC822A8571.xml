@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FICHA_CONSULTA" directorySegmentName="seg_0" id="B628445D-DDFB-9A9F-35CD-46FC822A8571">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:08:58 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<sourcePk>5F904205-ED25-6B2F-53D7-A377BB9FBCD0</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>POSEE</nameOnSource>
+<nameOnTarget>TIENE</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EEE73DE7-4838-25DE-8219-14E28875FF75</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>891ED753-427E-C8D7-C962-0348C5FC59B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

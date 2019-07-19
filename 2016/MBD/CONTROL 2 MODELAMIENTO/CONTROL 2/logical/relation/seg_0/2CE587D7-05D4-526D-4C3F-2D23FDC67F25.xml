@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FICHA_PROPIETARIO" directorySegmentName="seg_0" id="2CE587D7-05D4-526D-4C3F-2D23FDC67F25">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:08:46 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<sourcePk>6C2F8401-3808-9965-0765-B508C0D2DCAC</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>PERTENECE</nameOnSource>
+<nameOnTarget>TIENE</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>827209BC-610B-4E28-F44D-4A3D68F5F489</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EEE73DE7-4838-25DE-8219-14E28875FF75</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

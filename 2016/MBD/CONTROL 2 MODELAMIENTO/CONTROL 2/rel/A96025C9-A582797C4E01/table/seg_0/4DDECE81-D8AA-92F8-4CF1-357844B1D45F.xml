@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DDECE81-D8AA-92F8-4CF1-357844B1D45F" name="SERVICIO">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>730E9800-F512-99EF-CA08-41BE5234D818</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_servicio" id="ED55CEA6-AE50-1427-F160-E0F324037643">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>3C9346AC-ED18-C257-2C5E-6C5EB0B02CEF</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_servicio" id="AED90D52-A884-FE35-025B-0931D162445A">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>A8ADE177-7F06-B8B2-6410-D1A7D108571F</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="val_unit_serv" id="B1CF8624-FDF6-791D-3D20-AA69CF07278E">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>6AC12387-1F56-B8D9-1261-4FB2694AD60A</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SERVICIO_cod_tipo_servicio" id="337B4AB3-5B9A-0E97-9401-D157BED3B89B">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>081C506C-0539-4218-CAD6-550B80464F4A</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21D17907-0A38-C038-60EC-1B36DC90DE76" referredColumn="FB2EC3BC-E806-5185-BC8C-361FA8B6B2A0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="711C4110-1C4E-138D-B776-3EB1972027A3" name="SERVICIO_PK">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>61EF58C3-8C36-F83A-A154-D8E1A03416B7</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED55CEA6-AE50-1427-F160-E0F324037643"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7BC8B30-4681-F552-FE63-22570224F7C5" name="SERVICIO__IDX">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D7624A51-82B7-4E42-AF61-A8C58F563470</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="337B4AB3-5B9A-0E97-9401-D157BED3B89B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C092AD1C-C629-C323-2B81-4739807324C8" name="SERVICIO_TIPO_SERVICIO_FK">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>D7624A51-82B7-4E42-AF61-A8C58F563470</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="337B4AB3-5B9A-0E97-9401-D157BED3B89B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

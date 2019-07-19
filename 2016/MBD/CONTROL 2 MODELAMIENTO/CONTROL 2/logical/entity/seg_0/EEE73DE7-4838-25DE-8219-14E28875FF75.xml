@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEE73DE7-4838-25DE-8219-14E28875FF75" name="FICHA">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:59:16 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_ficha" id="FA92328E-F368-AE1E-2458-60C8EB60DBE9">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:59:27 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomb_mascota" id="C61878F5-4776-E318-CA86-7DA3A9B3F72C">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:59:33 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especie_mascota" id="9AA3933E-F40C-2BD8-7A12-39FD72A06489">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:59:35 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="raza_mascota" id="F96AF68B-1165-3E46-B909-1C94370E6367">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:59:35 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color_mascota" id="74D11214-D02C-191A-1C90-8C7C657ED144">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:59:36 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nac_mascota" id="5BBA1737-E54B-4FDE-A78D-1AA054EE517C">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:59:36 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad_mascota" id="C833DF56-2742-5797-7FA6-755AD2E47E8B">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:59:36 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_primera_consulta_mascota" id="43FD23B4-18F5-1F25-E04E-7CEFB51A31E7">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:59:37 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ci_propietario" id="42AC9226-D0C0-6568-FB5D-3601E98D0E9A">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:08:46 UTC</createdTime>
+<generatorID>2CE587D7-05D4-526D-4C3F-2D23FDC67F25</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<referedAttribute>183A6CD0-2D60-50EE-2426-E797F64D6D29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5F904205-ED25-6B2F-53D7-A377BB9FBCD0" name="FICHA PK">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-13 23:59:58 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<engineerTo>
+<item key="A96025C9-0EC7-4E0C-7DC1-A582797C4E01" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA92328E-F368-AE1E-2458-60C8EB60DBE9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45135639-95DB-2C6F-2742-BA63A519BAE1" name="CONSULTA_SERVICIO">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONSULTA_cod_consulta" id="34DA84A0-3089-6AA4-0E61-487B0233FC08">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B472D3B-5FA0-8078-8DCA-20C555DA9F39" referredColumn="C05BE010-02DA-444B-5571-61B76CB6C864"/>
+</associations>
+</Column>
+<Column name="SERVICIO_cod_servicio" id="DB16911F-953C-DFC7-14BD-13883F56362A">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6733F302-5F24-F4F3-1822-011A06591348" referredColumn="ED55CEA6-AE50-1427-F160-E0F324037643"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EED19F1-37C1-9938-443B-1F03FB3963DE" name="CONSULTA_SERVICIO_PK">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34DA84A0-3089-6AA4-0E61-487B0233FC08"/>
+<colUsage columnID="DB16911F-953C-DFC7-14BD-13883F56362A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2259349E-82DA-D8CF-F622-BD4344155C8D" name="FK_ASS_1">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>F5304843-ECBD-EAB8-487E-A08FFEBFC38E</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34DA84A0-3089-6AA4-0E61-487B0233FC08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74BF32F2-D39B-8135-46E8-FCB640D5EC87" name="FK_ASS_2">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>F5304843-ECBD-EAB8-487E-A08FFEBFC38E</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB16911F-953C-DFC7-14BD-13883F56362A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

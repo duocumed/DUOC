@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60C834B2-9CA6-10E9-023A-10B7362513EA" name="TIPO_SERVICIO">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>C430D6EF-A697-A1AF-B6EA-B6298DD8CBD5</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_tipo_servicio" id="FB2EC3BC-E806-5185-BC8C-361FA8B6B2A0">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>680E2176-EBFF-C805-0BF7-AFFD9F048D56</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_tipo_servicio" id="6B117782-F65C-9CC3-4057-7FBA9AAA073D">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>56129C4C-72F3-4A2E-CC17-E5556F300BBE</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVICIO_cod_servicio" id="B0C4E97D-F1E1-B83F-AC73-B9C3B3229F60">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>8F3CA9A6-9B7C-9A1A-D592-C039C4696B18</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACF6602E-D07B-E974-B88E-C9A1F4C26CB9" name="TIPO_SERVICIO_PK">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<generatorID>CBBF5598-6A34-1020-ECE4-7BF378B9E172</generatorID>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB2EC3BC-E806-5185-BC8C-361FA8B6B2A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1002BA37-45EA-7E77-0DCB-A0C958F707DF" name="TIPO_SERVICIO__IDX">
+<createdBy>vina</createdBy>
+<createdTime>2016-10-14 00:17:01 UTC</createdTime>
+<ownerDesignName>CONTROL 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D7624A51-82B7-4E42-AF61-A8C58F563470</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B0C4E97D-F1E1-B83F-AC73-B9C3B3229F60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
