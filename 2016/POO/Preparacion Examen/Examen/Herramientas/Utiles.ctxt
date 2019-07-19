@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=desdeBlueJ
+comment0.target=void\ clrscr(boolean)
+comment0.text=\n\ Limpiamos\ la\ consola\ de\ modo\ texto\ de\ BlueJ\n\ Para\ otros\ sistemas\ se\ pueden\ usar\ versiones\ similares\ de\ salida\ de\ caracteres\:\n\ a)\ Runtime.getRuntime().exec("cls");\ //Windows\n\ b)\ System.out.print("\\033[H\\033[2J");//Linux\n\ \ \ \ System.out.flush();\n\ Se\ podria\ obtener\ el\ tipo\ de\ sistema\ o\ consola\ para\ luego\ usar\ una\ de\ estas\ alternativas.\ \n\ Esa\ fue\ nuestra\ opcion,\ que\ luego\ la\ modificamos\ para\ BlueJ.\ Gracias\ San\ Google\ por\ los\ favores\ concedidos.\n\ @param\ desdeBlueJ\ de\ tipo\ Logico\ que\ permite\ decirle\ si\ el\ borrado\ ser\ realizar\u00E1\ desde\ entorno\ IDE\ BlueJ\n
+comment1.params=milisegundos
+comment1.target=void\ Esperar(int)
+comment2.params=frase\ decorador\ espaciadoX\ distanciaX
+comment2.target=void\ hacerCabecera(java.lang.String,\ java.lang.String,\ int,\ int)
+numComments=3

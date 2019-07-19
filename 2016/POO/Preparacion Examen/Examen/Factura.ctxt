@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Factura()
+comment1.params=numeroFactura\ empresa\ fechaInicio\ titulo\ cliente\ prod1\ prod2\ prod3
+comment1.target=Factura(long,\ Persona,\ Herramientas.Fecha,\ java.lang.String,\ Persona,\ Producto,\ Producto,\ Producto)
+comment2.params=numeroFactura
+comment2.target=void\ setNumeroFactura(long)
+comment3.params=empresa
+comment3.target=void\ setEmpresa(Persona)
+comment4.params=fechaInicio
+comment4.target=void\ setFechaInicio(Herramientas.Fecha)
+numComments=5

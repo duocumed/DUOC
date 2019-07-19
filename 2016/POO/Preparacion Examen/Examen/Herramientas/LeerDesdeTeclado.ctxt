@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LeerDesdeTeclado()
+comment1.params=teclado
+comment1.target=LeerDesdeTeclado(java.util.Scanner)
+comment10.params=
+comment10.target=java.lang.String\ leerSiguiente()
+comment2.params=teclado
+comment2.target=void\ setTeclado(java.util.Scanner)
+comment3.params=
+comment3.target=java.util.Scanner\ getTeclado()
+comment4.params=
+comment4.target=java.lang.String\ leerCadena()
+comment5.params=
+comment5.target=int\ leerEntero()
+comment6.params=
+comment6.target=double\ leerDoble()
+comment7.params=
+comment7.target=boolean\ leerLogico()
+comment8.params=
+comment8.target=float\ leerFlotante()
+comment9.params=
+comment9.target=long\ leerLong()
+numComments=11

@@ -1,0 +1,92 @@
+
+/**
+ * Write a description of class BoletaHonorarios here.
+ * 
+ * @author ruth covarrubias  
+ * @version v1 20160703
+ */
+public class BoletaHonorarios
+{
+    private int nroBoleta;
+    private Contribuyente contribuyente;
+    private Cliente cliente;
+    private String servicio;
+    private int monto;
+    private int retencion;
+    private int totalAPagar;
+    
+    public BoletaHonorarios(){
+        
+    }
+    public BoletaHonorarios(String servicio, int monto){
+        this.contribuyente=contribuyente;
+        this.cliente=cliente;
+        this.servicio=servicio;
+        this.monto=monto;
+        this.retencion=monto * 10 /100;
+        this.totalAPagar=monto-retencion;
+    }
+    public Contribuyente getContribuyente(){
+        return contribuyente;
+    }
+    public void setContribuyente (Contribuyente contribuyente){
+        this.contribuyente=contribuyente;
+    }
+    public Cliente getCliente(){
+        return cliente;
+    }
+    public void setCliente(Cliente cliente){
+        this.cliente=cliente;
+    }
+    public String getServicio(){
+        return servicio;
+    }
+    public void setServicio(String servicio){
+        this.servicio=servicio;
+    }
+    public int getMonto(){
+        return monto;
+    }
+    public void setMonto(int monto){
+        if (monto>0){
+            this.monto=monto;
+        }else{
+            System.out.println("EL MONTO DEBE SER MAYOR A CERO");
+        }
+    }
+    public int getRetencion(){
+        retencion=monto*10/100;
+        return retencion;
+    }
+    public void setRetencion(){
+        this.retencion=retencion;
+    }
+    public int getTotalAPagar(){
+        totalAPagar=monto-retencion;
+        return totalAPagar;
+    }
+    public void setTotalAPagar(int totalAPagar){
+        this.totalAPagar=totalAPagar;
+    }
+    public void imprimirBoleta(){
+        
+         nroBoleta=0;
+         nroBoleta=nroBoleta++;
+        
+        System.out.println("Boleta de Honorarios N° "+nroBoleta);
+        System.out.println("Nombre Contribuyente : "+ Contribuyente.getNombre());
+        System.out.println("RUT Contribuyente    : N° "+Contribuyente.getRut());
+        System.out.println("Nombre Cliente       : "+ Cliente.getNombre());
+        System.out.println("RUT Cliente          : N° "+Cliente.getRut());
+       
+        System.out.println("Detalle Servicio Prestado : " + servicio);
+        System.out.println("Monto         : $ "+ monto);
+        System.out.println("Retencion     : $ "+ retencion);
+        System.out.println("Total a Pagar : $ "+totalAPagar);
+        
+        
+    
+    
+    }
+    
+}

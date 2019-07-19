@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=rut\ nombres\ apellidoPaterno\ apellidoMaterno\ fechaDeNacimiento\ peso\ estatura\ sexo\ direccion
+comment0.target=Estudiante(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ double,\ char,\ java.lang.String)
+comment1.params=
+comment1.target=void\ imprimirDatos()
+comment2.params=incremento
+comment2.target=void\ aumentarPeso(int)
+comment3.params=decremento
+comment3.target=void\ disminuirEstatura(double)
+comment4.params=
+comment4.target=int\ obtenerGramos()
+comment5.params=
+comment5.target=java.lang.String\ obtenerSexo()
+comment6.params=
+comment6.target=int\ getPeso()
+comment7.params=
+comment7.target=double\ getEstatura()
+numComments=8

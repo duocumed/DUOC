@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Persona()
+comment1.params=razonSocial\ telefono\ direccion\ rut
+comment1.target=Persona(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment10.params=central
+comment10.target=void\ printPersona(java.lang.String)
+comment2.params=razonSocial
+comment2.target=void\ setRazonSocial(java.lang.String)
+comment3.params=telefono
+comment3.target=void\ setTelefono(java.lang.String)
+comment4.params=direccion
+comment4.target=void\ setDireccion(java.lang.String)
+comment5.params=rut
+comment5.target=void\ setRut(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getRazonSocial()
+comment7.params=
+comment7.target=java.lang.String\ getTelefono()
+comment8.params=
+comment8.target=java.lang.String\ getDireccion()
+comment9.params=
+comment9.target=java.lang.String\ getRut()
+numComments=11
